@@ -46,7 +46,10 @@ Basta importar a classe do MoIP e sair brincando :-)
     moip.set_valor('12345')
     moip.set_data_vencimento('yyyy-mm-dd')
     moip.set_id_proprio('abc123')
+<<<<<<< HEAD
     moip.set_parcelamento('2', '6', '0')
+=======
+>>>>>>> 53db558bcbea1fcc3e204eba7366e2e9df5ee3cf
     moip.envia()
     
     print moip.get_resposta() # {sucesso:'Sucesso','token':'KJHSDASKD392847293AHFJKDSAH'}
