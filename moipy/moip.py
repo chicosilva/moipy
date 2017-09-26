@@ -77,6 +77,11 @@ class Moip():
         
         return self
 
+    def set_parcelamento(self, minimo_parcelas, maximo_parcelas, juros):
+        
+        self._monta_xml(self.xml_node, unique=True, InstrucaoUnica=dict(Parcelamentos=dict(Parcelamento=dict(MinimoParcelas=minimo_parcelas, MaximoParcelas=maximo_parcelas, Juros=juros))))
+        
+        return self
 
     def set_recebedor(self,login_moip,email,apelido):
         
