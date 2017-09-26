@@ -1,0 +1,8 @@
+build/**
+dist/**
+*.pyc
+*.pyo
+.project
+.pydevproject
+.settings
+nbproject/
